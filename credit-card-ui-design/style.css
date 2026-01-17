@@ -1,0 +1,10 @@
+* {
+    background-color: aliceblue;
+}
+
+.card {
+    background-color: #0000;
+    height: 300px;
+    width: 500px;
+    display: flex;
+}
