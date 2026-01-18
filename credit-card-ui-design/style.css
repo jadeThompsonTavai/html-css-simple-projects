@@ -1,10 +1,84 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
     background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    
 }
 
 .card {
-    background-color: #0000;
-    height: 300px;
-    width: 500px;
+    background-color: #141413;
+    border-radius: 40px;
+    height: 325px;
+    width: 550px;
+    margin: auto;
+    margin-top: 20%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card .top {
     display: flex;
+}
+
+.master-card-logo {
+    height:100px;
+    width: 100px;
+    margin: 10px 5px 0 30px;
+    /* border: 2px solid red; */
+}
+
+.top .master-card-text {
+    /* border: 2px solid green; */
+    margin-top: 8%;
+    font-size: 25px;
+}
+
+.top .credit-card-chip {
+    height: 65px;
+    width: 85px;
+    margin: 30px 5px 0 145px;
+}
+
+.card-number {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0 0 30px;
+}
+
+.card-number .text {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card-number .numbers {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.details {
+    display: flex;
+}
+
+.details .name {
+    font-size: 23px;
+    margin: 30px 60px 0 30px;
+}
+
+.details .expiry {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.expiry .valid {
+    font-size: 18px;
+} 
+
+.expiry .exp {
+    font-size: 25px;
 }
